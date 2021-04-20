@@ -36,4 +36,4 @@ conditions:
     - synId_sample_list: syn24861216
     - numPeer: 50.0
     - permutation_pass: 10000
-    - file_output_name:  chrddd.DLPFC.nominals.Olig.txt.gz #somehow need to encode chromosome
+    - file_output_name:  chrddd.DLPFC.nominals.bulk.txt.gz #somehow need to encode chromosome
