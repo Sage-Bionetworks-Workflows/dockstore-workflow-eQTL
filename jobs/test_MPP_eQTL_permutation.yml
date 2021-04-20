@@ -1,0 +1,39 @@
+synapse_config:
+  - /etc/synapse/.synapseConfig
+synId_chromosome_vcf:
+  - syn22220844
+  - syn....
+  - syn...
+r2_threshold: 
+  - "(R2 > .7)"
+minimum_allele_frequency:
+  - 0.01:minor
+file_type_bed:
+  - bed
+file_type_vcf:
+  - vcf
+conditions:
+  condition1:
+    - cohort: MSSM_Penn_Pitt
+    - tissue: DLPFC
+    - cellType: Olig
+    - qtltype: cis
+    - synId_covariates: syn25191959
+    - synId_peer: syn25191965
+    - synId_geneExpression: syn25192859
+    - synId_sample_list: syn24861220
+    - numPeer: 25.0
+    - permutation_pass: 10000
+    - file_output_name:  chrddd.DLPFC.nominals.Olig.txt.gz #somehow need to encode chromosome
+  condition2: 
+    - cohort: MSSM_Penn_Pitt
+    - tissue: DLPFC
+    - cellType: bulk
+    - qtltype: cis
+    - synId_covariates: syn25154419
+    - synId_peer: syn25154429
+    - synId_geneExpression: syn25154788
+    - synId_sample_list: syn24861216
+    - numPeer: 50.0
+    - permutation_pass: 10000
+    - file_output_name:  chrddd.DLPFC.nominals.Olig.txt.gz #somehow need to encode chromosome
